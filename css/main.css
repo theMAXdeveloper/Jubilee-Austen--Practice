@@ -1,0 +1,246 @@
+/****** Global Styles ******/
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "source sans 3", sans-serif;
+	color: #5E5D5E;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.content-wrapper {
+	overflow: auto;
+}
+
+/****** Header Styles ******/
+.homepage-hero {
+	background: #F9EFEF url('../img/full-background.png') no-repeat center;
+	background-size: cover;
+	height: 800px;
+
+}
+
+header h1 {
+	float: left;
+	width: 300px;
+	font-family: "lora", serif;
+	font-size: 30px;
+	color: #7B7E54;
+	margin: 65px 0 65px 25px;
+}
+
+header nav {
+	width: 800px;
+	float: right;
+	margin: 75px 25px 75px 0;
+	text-align: right;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	display: inline-block;
+} 
+
+header nav ul li a {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #727172;
+	padding-left: 50px;
+}
+
+header h2 {
+	width: 1000px;
+	clear: both;
+	font-family: "lora", serif;
+	font-size: 72px;
+	line-height: 80px;
+	color: #817F80;
+	margin: 20px 0 20px 25px;
+}
+/****** About Styles ******/
+#about .content-wrapper {
+	margin: 80px 0;
+}
+
+#about h2 {
+	font-family: 'lora', serif;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+#about p {
+	float: left;
+	width: 600px;
+	font-size: 20px;
+	line-height: 40px;
+	padding: 0 50px;
+}
+
+/****** Skill Styles ******/
+
+#skills {
+	background-color: #F5F5F5;
+	text-align: center;
+}
+
+#skills .content-wrapper {
+	padding: 115px 0;
+}
+
+#skills .skill-list {
+	float: left;
+	width: 400px;
+	padding: 0 50px;
+}
+
+#skills h2 {
+	font-family: 'lora', serif;
+	font-size: 36px;
+	margin: 0 0 40px 0;
+}
+
+#skills h3 {
+	font-size: 24px;
+	line-height: 36px;
+	margin: 30px 0 20px 0;
+}
+
+#skills p {
+	font-size: 20px;
+	line-height: 40px;
+	margin: 0 auto;
+}
+
+/****** Contact Styles ******/
+
+#contact {
+	background-color: #F9E9E9;
+}
+
+#contact .content-wrapper {
+	padding: 110px 0;
+}
+
+#contact .contact-image {
+	float: left;
+	width: 600px;
+}
+
+#contact-img {
+	height: 300px;
+	width: 500px;
+	border: 12px solid white;
+	margin: 0 50px;
+}
+
+#contact .contact-info {
+	float: left;
+	width: 500px;
+	margin-left: 100px;
+}
+
+#contact h2 {
+	font-family: 'lora', serif;
+	font-size: 36px;
+	font-weight: 600;
+	margin: 30px 0;
+}
+
+#contact h3 {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 36px;
+}
+
+#email-header {
+	margin: 0 0 5px;
+}
+
+#socialmedia-header {
+	margin: 20px 0 5px 0;
+}
+
+#envelope-icon {
+	margin-right: 10px;
+}
+
+#contact .contact-info a {
+	text-decoration: none;
+	color: #5E5D5E;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+#contact ul {
+	padding: 0;
+	margin: 0;
+}
+
+#contact ul li {
+	display: inline-block;
+}
+
+#contact ul img {
+	padding-right: 40px;
+}
+
+/****** Projects Page Styles ******/
+
+
+
+/****** Projects Page Header Styles ******/
+
+.projects-header {
+	background-color: #F9EFEF;
+}
+
+/****** Projects Page Projects Styles ******/
+
+#projects {
+	background-color: #F5F5F5;
+	text-align: center;
+}
+
+#projects .content-wrapper {
+	padding: 115px 0;
+}
+
+#projects .project-list {
+	float: left;
+	width: 400px;
+	padding: 0 50px;
+}
+
+#projects h2 {
+	font-family: 'lora', serif;
+	font-size: 36px;
+	margin: 0 0 40px 0;
+}
+
+#projects img {
+	width: 300px;
+}
+
+#projects h3 {
+	font-size: 24px;
+	line-height: 36px;
+	margin: 30px 0 20px 0;
+}
+
+#projects p {
+	font-size: 20px;
+	line-height: 40px;
+	text-align: left;
+}
